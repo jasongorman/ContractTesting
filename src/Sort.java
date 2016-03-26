@@ -1,9 +1,5 @@
 public abstract class Sort {
 
-	public Sort() {
-		super();
-	}
-
 	public abstract int[] sortAsc(int[] input);
 
 	protected void swap(int[] input, int index1, int index2) {
